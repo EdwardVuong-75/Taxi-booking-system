@@ -1,0 +1,20 @@
+body
+{
+margin-top:200px;
+text-align: center;
+background-color: DarkMagenta;
+font-family: Arial, Sans-serif;
+text-transform: uppercase;
+}
+
+input[type="button"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+

@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>Admin Component</title>
+<link rel="stylesheet" href= "style2.css"/>
+</head>
+<body>
+<h1>Admin Component</h1>
+<form>
+<label>booking request searching <input type="text" id="bsearch" name ="bsearch" ></label>
+<label><input type ="button" name="sbutton" value="Submit"
+onClick = "getData('adminserver.php','message', bsearch.value)"></label>
+</form>
+
+<div id ="message">Message goes here</div>
+<div class="content"></div>
+</body>
+<script type="text/javascript" src="bookingsearch.js"></script>
+
+</html>

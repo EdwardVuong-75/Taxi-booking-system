@@ -1,0 +1,39 @@
+<html>
+<head>
+<title>Booking REQUEST</title>
+<link rel="stylesheet" href= "style.css"/>
+</head>
+<body class="f" onload="setCurrentDateandTime()">
+<div>
+<h1>Booking request</h1>
+<form id ="formrequest">
+
+<label>Customer Name: <input type="text" id="cname" name="cname" required></label>
+
+<p><label>Phone Number: <input type="text" id="phone" name="phone" maxlength="12" pattern="\d{10,12}" title=" Phone number must be all 
+numbers with length between 10-12 " required></label>
+
+<p><label>Unit Number: <input type="text" name="unumber"></label>
+
+<p><label>Street Number: <input type="text" id="snumber" name="snumber" required></label>
+
+<p><label>Street Name: <input type="text" id="stname" name="stname" required></label>
+
+<p><label>Suburb: <input type="text" name="sbname"></label>
+
+<p><label>Destination Suburb: <input type="text" name="dsbname"></label>
+
+<p><label>Pick-Up Date: <input type="date" id="date" name="date"  required></label>
+
+<p><label>Pick-Up Time: <input type="time" id="time" name="time" onChange="checktime()" required></label>
+
+<p><input type="submit" name "submit" >
+
+<p id = "target">
+</p>
+
+</form>
+</div>
+</body>
+<script type="text/javascript" src="bookingvalidation.js"></script>
+</html>
